@@ -1,0 +1,21 @@
+import java.util.*;
+public class GoPalindrome {
+
+	public static void main(String[] args) {
+		//StringBuilder text = new StringBuilder();
+	    String text = "racecar";
+		String cutText;
+		String cutText2;
+		cutText = text..substring(0,3);
+		cutText2 = text.substring(4, 7);
+	
+		
+		
+	    for (int i = 0; i < cutText.length(); i++){
+	    	System.out.println(i);	
+	}	
+	    for(int i = 0; i < cutText2.length(); i++){
+	    	System.out.println(i);
+	    }
+	}	
+}

@@ -1,0 +1,8 @@
+
+public class Monster extends Being {
+	
+	public Monster(){
+		
+	}
+
+}

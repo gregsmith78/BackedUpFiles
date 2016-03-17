@@ -1,0 +1,16 @@
+import java.util.*;
+public class Game {
+	int number;
+	
+	public Game(){
+		
+	}
+	public void Start(){
+		System.out.println("What number would you like to use?");
+		Scanner input = new Scanner(System.in);
+		number = input.nextInt();
+		
+	}
+	
+
+}

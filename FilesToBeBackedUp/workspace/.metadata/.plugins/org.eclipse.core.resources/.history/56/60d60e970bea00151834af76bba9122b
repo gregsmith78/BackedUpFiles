@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class GoArrayLists {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> firstArray = new ArrayList<Integer>();
+		ArrayList<Integer> secondArray = new ArrayList<Integer>();
+		
+		firstArray.add(21);
+		firstArray.add(11);
+		firstArray.add(34);
+		firstArray.add(6);
+		for(Integer item: firstArray){
+			System.out.println(item);
+		}
+
+		secondArray.add(11);
+		secondArray.add(21);
+		secondArray.add(22);
+		secondArray.add(66);
+		for(Integer item: secondArray){
+			System.out.println(item);
+		}
+
+	}
+
+}

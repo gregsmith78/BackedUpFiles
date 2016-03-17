@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Person person1 = new Person();
+		Warehouse worker1 = new Warehouse("Ron", "Burgandy", "Warehouse", 1, 17.25, 40 );
+		double ronPay = worker1.CalculateTotalPayForWeek();
+		worker1.Display();
+
+	}
+
+}

@@ -1,0 +1,24 @@
+
+public class Warehouse extends Person {
+	
+	
+	public Warehouse(String FirstName, String LastName, String Department,int AccessLevel, double HourlyWage, double TotalHoursWorkedForWeek){
+		firstName = FirstName;
+		lastName = LastName;
+		department = Department;
+		accessLevel = AccessLevel;
+		hourlyWage = HourlyWage;
+		totalHoursWorkedForWeek = TotalHoursWorkedForWeek;
+		
+		
+	}
+	public double CalculateTotalPayForWeek(){
+		double totalPay = hourlyWage * totalHoursWorkedForWeek;
+		return totalPay;
+		
+	}
+	public void Display(){
+		System.out.println("Name of employee: " + firstName + " " + lastName);
+
+}
+}

@@ -1,0 +1,23 @@
+
+public class Player {
+	public String name;
+	public int singles;
+	public int doubles;
+	public int triples;
+	public int homers;
+	public int atBats;
+	public Player(){
+		
+		
+	}
+	public int GetSlugging(int Singles, int Doubles, int Triples, int Homers, int AtBats){
+		singles = Singles;
+		doubles = Doubles;
+		triples = Triples;
+		homers = Homers;
+		atBats = AtBats;
+	int	sluggingPerc = (((Singles * 1) + (Doubles * 2) + (Triples * 3) + (Homers * 4)) / AtBats);
+	return sluggingPerc;
+	}
+
+}

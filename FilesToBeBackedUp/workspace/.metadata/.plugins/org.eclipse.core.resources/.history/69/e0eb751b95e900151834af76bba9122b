@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Human human1 = new Human();
+		System.out.println(human1.name);
+		Monster monster1 = new Monster();
+		System.out.println(monster1.power);
+		System.out.println(monster1.StrengthBooster());
+		
+		monster1.AddMoreStrength();
+		//System.out.println(monster1.StrengthBooster());
+		
+		
+	}
+	
+
+}

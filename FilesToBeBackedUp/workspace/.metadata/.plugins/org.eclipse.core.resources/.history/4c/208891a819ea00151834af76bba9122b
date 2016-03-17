@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Warehouse employee1 = new Warehouse("Ron", "Burgandy", "Warehouse", 1, 17.25, 40 );
+		employee1.WareHouseDisplay();
+		System.out.println("=====================================");
+		CustomerService employee2 = new CustomerService("Nino", "Brown", "Customer Service", 2, 23.5, 53);
+		employee2.CustomerServiceDisplay();
+		HumanResources employee3 = new HumanResources("Peter", "Parker", "Human Resources", 3, 18.75, 41);
+		employee3.HRDisplay();
+		System.out.println("=====================================");
+		Executives employee4 = new Executives("Captain", "America", "Executive", 4, 33.25, 47);
+		System.out.println("=====================================");
+		employee4.ExecDisplay();
+
+	}
+
+}

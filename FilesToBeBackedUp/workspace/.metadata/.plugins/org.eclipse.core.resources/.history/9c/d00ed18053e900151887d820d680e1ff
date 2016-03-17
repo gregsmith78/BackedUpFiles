@@ -1,0 +1,12 @@
+
+public class Monster extends Being {
+	
+	public Monster(){
+		super("Tiger", 56, 76, 56, 76, 453);
+	}
+	public int StrengthBooster(){
+		strength += 100;
+		return strength;
+	}
+
+}

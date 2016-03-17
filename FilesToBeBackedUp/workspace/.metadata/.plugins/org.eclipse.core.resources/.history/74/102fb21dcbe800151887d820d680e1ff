@@ -1,0 +1,10 @@
+
+public class Slugging {
+
+	public static void main(String[] args) {
+		Player steve = new Player();
+		System.out.println(steve.GetSlugging(20, 22, 14, 30, 467));
+		
+		
+	}
+}

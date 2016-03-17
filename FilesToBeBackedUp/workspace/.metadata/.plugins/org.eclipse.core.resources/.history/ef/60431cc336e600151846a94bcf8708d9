@@ -1,0 +1,27 @@
+package DiceGameJava;
+
+
+public class MainDice {
+
+	public static void main(String[] args) {
+		
+		//ChooseDice instanceDice = new ChooseDice();
+		//instanceDice.DiceSelect();
+		Menu menu = new Menu();
+		Rules rules = new Rules();
+		
+
+
+
+	    menu.greeting();
+	    rules.getRules();
+	   // menu.getPlayerSelection();
+	   
+
+		}
+
+	
+
+	
+
+}

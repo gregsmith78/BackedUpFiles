@@ -1,0 +1,36 @@
+package DiceGameJava;
+import java.util.*;
+
+public class MainDice {
+
+	public static void main(String[] args) {
+
+
+
+
+
+
+
+
+
+		Rules startMenu = new Rules();
+		BodyContainers bodyArray = new BodyContainers();
+		ChooseDice userSelectDiceToRoll = new ChooseDice();
+		ContinueGame loopTheGame = new ContinueGame();
+		startMenu.getRules();
+		userSelectDiceToRoll.DiceSelect();
+		
+		
+		loopTheGame.LoopDice();
+		bodyArray.addPartToList("");
+
+
+
+=======
+		
+>>>>>>> 25c889998136b55c3065d38bc6e4a34dcbb14821
+	}
+}
+
+
+}

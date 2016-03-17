@@ -1,0 +1,14 @@
+
+public class Executives extends Person{
+	
+	
+	public Executives(String FirstName, String LastName, String Department,int AccessLevel, double HourlyWage, double TotalHoursWorkedForWeek){
+		firstName = FirstName;
+		lastName = LastName;
+		department = Department;
+		accessLevel = 4;
+		hourlyWage = HourlyWage;
+		totalHoursWorkedForWeek = TotalHoursWorkedForWeek;
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Person person1 = new Person();
+		Warehouse worker1 = new Warehouse("Ron", "Burgandy", "Warhouse", 1, 17.25, 40 );
+		worker1.Display();
+
+	}
+
+}

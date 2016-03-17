@@ -1,0 +1,25 @@
+
+public class Executives extends Person{
+	double totalSalary;
+	
+	public Executives(String FirstName, String LastName, String Department,int AccessLevel, double HourlyWage, double TotalHoursWorkedForWeek){
+		
+		firstName = FirstName;
+		lastName = LastName;
+		department = Department;
+		accessLevel = 4;
+		hourlyWage = HourlyWage;
+		totalHoursWorkedForWeek = TotalHoursWorkedForWeek;
+	}
+	public double CalculateSalary(){
+		totalSalary = hourlyWage * 40 * 54;
+		return totalSalary;
+	}
+	public void ExecDisplay(){
+		System.out.println("Name of employee: " + firstName + " " + lastName);
+		System.out.println("Department: " + department);
+		System.out.println("Access Level: " + accessLevel);
+		System.out.println("Hourly Wage: " + hourlyWage  + " :: Total Hours: " + totalHoursWorkedForWeek);
+		System.out.println("Annual Salary: " + CalculateSalary());
+	}
+}

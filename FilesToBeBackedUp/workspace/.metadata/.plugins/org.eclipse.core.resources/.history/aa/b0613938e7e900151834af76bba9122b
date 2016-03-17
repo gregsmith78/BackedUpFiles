@@ -1,0 +1,32 @@
+import java.util.*;
+public class Monster extends Being {
+	
+	boolean keepAddingStrength = true;
+	
+	
+	public Monster(){
+		super("Tiger", 56, 76, 56, 76, 453);
+	}
+	public int StrengthBooster(){
+		strength += 100;
+		return strength;
+	}
+	
+	public void AddMoreStrength(){
+	
+	while (keepAddingStrength){
+		System.out.println("Would you like to add more strength to your monster?");
+		System.out.println("Press 1 for yes and 2 for no!");
+		Scanner input = new Scanner(System.in);
+		int user = input.nextInt();
+		
+		if(user == 1){
+		 System.out.println("strength level is now: " + StrengthBooster());
+	} else {
+		keepAddingStrength = false;
+		System.out.println("All powered up!!");
+	}
+	}
+	}
+}
+

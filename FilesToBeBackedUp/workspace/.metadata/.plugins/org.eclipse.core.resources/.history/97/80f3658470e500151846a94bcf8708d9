@@ -1,0 +1,11 @@
+
+public class MainDice {
+
+	public static void main(String[] args) {
+		
+		DiceRoll dice = new DiceRoll();
+		System.out.println(dice.getDie1());
+
+	}
+
+}

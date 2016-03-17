@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Warehouse employee1 = new Warehouse("Ron", "Burgandy", "Warehouse", 1, 17.25, 40 );
+		employee1.WareHouseDisplay();
+		CustomerService employee2 = new CustomerService("Nino", "Brown", "Customer Service", 2, 23.5, 53, 37450);
+		employee2.CustDisplay();
+
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class Monster extends Being {
+	
+	public Monster(){
+		super("Tiger", 56, 76, 56, 76, 453);
+	}
+
+}

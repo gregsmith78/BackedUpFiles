@@ -1,0 +1,13 @@
+
+public class GoPalindrome {
+
+	public static void main(String[] args) {
+		String text = "racecar";
+		//text = text.toString();
+		String texter;
+		texter = text.substring(0,3);
+	for (int i = 0; i < texter.charAt(0); i++){
+		System.out.println(i);
+	}
+	}	
+}

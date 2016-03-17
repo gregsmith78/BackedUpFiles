@@ -1,0 +1,14 @@
+
+public class WarehouseSupervisor extends Warehouse {
+	
+	
+	public WarehouseSupervisor(String FirstName, String LastName, String Department,int AccessLevel, double HourlyWage, double TotalHoursWorkedForWeek){
+		firstName = FirstName;
+		lastName = LastName;
+		department = Department;
+		accessLevel = AccessLevel;
+		hourlyWage = HourlyWage;
+		totalHoursWorkedForWeek = TotalHoursWorkedForWeek;
+		isSupervisor = true;
+	}
+}

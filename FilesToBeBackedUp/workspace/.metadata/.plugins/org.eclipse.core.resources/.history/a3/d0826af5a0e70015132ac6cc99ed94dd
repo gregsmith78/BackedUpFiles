@@ -1,0 +1,14 @@
+import java.util.*;
+
+
+public class IsHappy {
+
+	public static void main(String[] args) {
+		
+		Game game = new Game();
+		game.Start();
+		
+
+	}
+
+}
